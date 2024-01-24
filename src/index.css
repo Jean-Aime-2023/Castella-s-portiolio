@@ -1,13 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #11071f;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.prehvihear {
+  font-family: 'Preahvihear', sans-serif;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Set the width as per your requirement */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .blur-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 0, 128, 0.5); /* semi-transparent purple overlay */
+    backdrop-filter: blur(8px); /* Adds a purple blur effect */
+    -webkit-backdrop-filter: blur(8px); /* For older versions of Safari */
+  }
+
+.btn1 {
+  border-radius: 30px;
+  /* border: 1.53px solid rgba(255, 255, 255, 0.6); */
+
+  background: rgba(255, 255, 255, 0.3);
+
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(11.575666427612305px);
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+}
+
+.btn2 {
+  border-radius: 30px;
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+
+  background: linear-gradient(
+    107deg,
+    #693b93 24.43%,
+    rgba(112, 51, 173, 0.37) 68.95%
+  );
+
+  box-shadow: 0px 10px 20px 0px rgba(8, 12, 33, 0.15);
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
 }
