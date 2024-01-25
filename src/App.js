@@ -1,5 +1,6 @@
 import './App.css';
 import Examples from './components/Examples';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Languages from './components/Languages';
 import Navbar from './components/Navbar';
@@ -17,6 +18,7 @@ function App() {
       <Languages/>
       {/* <Recent/> */}
       <Examples/>
+      <Footer/>
     </div>
   );
 }

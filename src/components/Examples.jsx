@@ -15,20 +15,118 @@ const Examples = () => {
           <section className="blured p-7 rounded-xl md:mr-[-3rem] max-md:mb-[-3rem]">
             <p className="text-[15px] text-[#CCD6F6]">
               A web app for visualizing personalized Spotify data. View your{' '}
-              <br className='max-md:hidden' />
+              <br className="max-md:hidden" />
               top artists, top tracks, recently played tracks, and detailed
-              audio <br className='max-md:hidden'/>
+              audio <br className="max-md:hidden" />
               information about each track. Create and save new playlists of{' '}
-              <br className='max-md:hidden'/>
+              <br className="max-md:hidden" />
               recommended tracks based on your existing playlists and more.
             </p>
           </section>
+
+          <div className="flex flex-row gap-[1rem] justify-start px-10">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+            >
+              <mask
+                id="mask0_1106_1434"
+                // style="mask-type:alpha"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="30"
+                height="30"
+              >
+                <path
+                  d="M15.5 2.58337V7.75004"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </mask>
+              <g mask="url(#mask0_1106_1434)">
+                <path d="M0 0H31V31H0V0Z" fill="white" />
+              </g>
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+            >
+              <mask
+                id="mask0_1106_1434"
+                // style="mask-type:alpha"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="30"
+                height="30"
+              >
+                <path
+                  d="M15.5 2.58337V7.75004"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </mask>
+              <g mask="url(#mask0_1106_1434)">
+                <path d="M0 0H31V31H0V0Z" fill="white" />
+              </g>
+            </svg>
+          </div>
         </div>
 
-        <div className="absolute blur2 right-[28rem] bottom-[45rem]"></div>
+        <div className="absolute blur2 right-[28rem] top-[190em]"></div>
 
         <div>
-          <img src={image2} alt="" className="w-[90%] max-xl:w-full max-xl:h-full" />
+          <img
+            src={image2}
+            alt=""
+            className="w-[90%] max-xl:w-full max-xl:h-full"
+          />
         </div>
       </div>
 
@@ -42,19 +140,113 @@ const Examples = () => {
           <section className="blured p-7 rounded-xl md:ml-[-7rem] max-md:mb-[-3rem]">
             <p className="text-[15px] text-[#CCD6F6]">
               A web app for visualizing personalized Spotify data. View your{' '}
-              <br className='max-md:hidden'/>
+              <br className="max-md:hidden" />
               top artists, top tracks, recently played tracks, and detailed
-              audio <br className='max-md:hidden'/>
+              audio <br className="max-md:hidden" />
               information about each track. Create and save new playlists of{' '}
-              <br className='max-md:hidden'/>
+              <br className="max-md:hidden" />
               recommended tracks based on your existing playlists and more.
             </p>
           </section>
+
+          <div className="flex flex-row gap-[1rem] justify-end px-10">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+            >
+              <mask
+                id="mask0_1106_1434"
+                // style="mask-type:alpha"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="30"
+                height="30"
+              >
+                <path
+                  d="M15.5 2.58337V7.75004"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </mask>
+              <g mask="url(#mask0_1106_1434)">
+                <path d="M0 0H31V31H0V0Z" fill="white" />
+              </g>
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+            >
+              <mask
+                id="mask0_1106_1434"
+                // style="mask-type:alpha"
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="30"
+                height="30"
+              >
+                <path
+                  d="M15.5 2.58337V7.75004"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
+                  fill="white"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </mask>
+              <g mask="url(#mask0_1106_1434)">
+                <path d="M0 0H31V31H0V0Z" fill="white" />
+              </g>
+            </svg>
+          </div>
         </div>
 
-        <div className="absolute blur2 left-[10rem] bottom-[2rem]"></div>
+        <div className="absolute blur2 left-[10rem] bottom-[50rem]"></div>
 
-        <div className='order-1 max-md:order-2'>
+        <div className="order-1 max-md:order-2">
           <img src={image2} alt="" className="w-[90%]" />
         </div>
       </div>
