@@ -1,7 +1,9 @@
 import './App.css';
+import Examples from './components/Examples';
 import Hero from './components/Hero';
+import Languages from './components/Languages';
 import Navbar from './components/Navbar';
-import SvgComponent from './components/SvgComponent';
+// import Recent from './components/Recent';
 import WhoIamI from './components/WhoIamI';
 import Work from './components/Work';
 
@@ -12,9 +14,9 @@ function App() {
       <Hero/>
       <WhoIamI/>
       <Work/>
-      <div className='m-10'>
-      <SvgComponent/>
-      </div>
+      <Languages/>
+      {/* <Recent/> */}
+      <Examples/>
     </div>
   );
 }

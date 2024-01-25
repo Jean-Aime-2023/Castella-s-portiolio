@@ -14,11 +14,11 @@ const Hero = () => {
         <div className='flex md:h-2/4 max-md:w-full prehvihear max-md:justify-center'>
             <div className='flex flex-col gap-24'>
                 <p className='text-lg'>Hello! I Am <span className='text-[#7127BA]'>Cinta Castella</span></p>
-                <section className=' flex flex-col gap-4'>
+                <span className=' flex flex-col gap-4'>
                     <p className='text-lg'>A Designer who</p>
                     <h1 className='text-5xl'>Judges a book <br /> by its <span className='text-[#7127BA]'>cover</span>...</h1>
                     <p className='text-xs'>Because if the cover does not impress you what else can?</p>
-                </section>
+                </span>
             </div>
         </div>
 

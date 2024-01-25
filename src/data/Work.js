@@ -2,7 +2,7 @@ import image1 from '../assets/images/Card (1).png';
 import image2 from '../assets/images/Card.png';
 import image3 from '../assets/images/cards.png';
 
-const Experience = [
+const RecentWork = [
   {
     id: 1,
     image: image1,
@@ -11,7 +11,7 @@ const Experience = [
   {
     id: 2,
     image: image2,
-    title: 'UiI Designs',
+    title: 'UI Designs',
   },
   {
     id: 3,
@@ -20,4 +20,4 @@ const Experience = [
   },
 ];
 
-export default Experience;
+export default RecentWork;

@@ -11,8 +11,8 @@ const WhoIamI = () => {
             <h1 className='tracking-wider text-4xl font-bold max-sm:text-3xl'>I'm a Software Engineer.| </h1>
             <p className='flex gap-3 flex-row max-lg:flex-col'>
               Currently, I'm a Software Engineer at 
-              <section className='flex flex-row gap-4'><img src={log} alt="/" className='max-sm:hidden' />{' '}
-              <span className='text-[#1877F2]'>Rwanda Coding Academy</span></section>
+              <span className='flex flex-row gap-4'><img src={log} alt="/" className='max-sm:hidden' />{' '}
+              <span className='text-[#1877F2]'>Rwanda Coding Academy</span></span>
             </p>
           </section>
           <section className='prehvihear'>
@@ -31,8 +31,8 @@ const WhoIamI = () => {
           </div>
         </div>
 
-        <div className='flex mt-[10rem] max-lg:w-2/4 blur1 max-md:w-full max-md:mt-[60rem]'>
-          <img src={image} alt="/" />  
+        <div className='flex mt-[10rem] max-lg:w-2/4 blur1 max-md:w-screen max-md:mt-[60rem]'>
+          <img src={image} alt="/" className='max-md:w-full' />  
         </div>
       </div>
     </div>
