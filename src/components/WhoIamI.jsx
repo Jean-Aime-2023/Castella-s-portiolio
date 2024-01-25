@@ -4,12 +4,12 @@ import image from '../assets/icons/Group 1191.png'
 
 const WhoIamI = () => {
   return (
-    <div className='mt-[10rem] text-white max-sm:px-[4rem] max-sm:text-center mb-5 sm:px-[5rem] xl:px-[16rem]'>
-      <div className="relative">
-        <div className='flex flex-col gap-8'>
+    <div className='mt-[20rem] max-sm:mt-[14rem] text-white max-sm:px-[4rem] max-sm:text-center xl:px-[12rem] max-xl:px-[6rem] '>
+      <div className="flex flex-row gap-5 items-center max-md:flex-col max-md:gap-10">
+        <div className='flex flex-col gap-8 max-lg:w-2/4 max-md:w-full'>
           <section className='prehvihear flex flex-col gap-3'>
             <h1 className='tracking-wider text-4xl font-bold max-sm:text-3xl'>I'm a Software Engineer.| </h1>
-            <p className='flex gap-3 flex-row max-sm:flex-col'>
+            <p className='flex gap-3 flex-row max-lg:flex-col'>
               Currently, I'm a Software Engineer at 
               <section className='flex flex-row gap-4'><img src={log} alt="/" className='max-sm:hidden' />{' '}
               <span className='text-[#1877F2]'>Rwanda Coding Academy</span></section>
@@ -31,7 +31,7 @@ const WhoIamI = () => {
           </div>
         </div>
 
-        <div className='absolute right-0 lg:top-[-10rem]'>
+        <div className='flex mt-[10rem] max-lg:w-2/4 blur1 max-md:w-full max-md:mt-[60rem]'>
           <img src={image} alt="/" />  
         </div>
       </div>

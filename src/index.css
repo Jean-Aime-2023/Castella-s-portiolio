@@ -8,6 +8,7 @@
 body {
   background-color: #11071f;
   overflow-x: hidden;
+  position: relative;
 }
 
 .poppins {
@@ -18,28 +19,58 @@ body {
   font-family: 'Preahvihear', sans-serif;
 }
 
-.image-container {
-    position: relative;
-    width: 100%;
-    max-width: 600px; /* Set the width as per your requirement */
+.blur1 {
+  height: 700px;
+  width: 760px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+  position: absolute;
+  top: 20rem;
+  right: 6rem;
+}
+
+.workbox {
+  background: linear-gradient(
+    150deg,
+    #130428 37.22%,
+    #251043 70.43%,
+    #38126d 97.89%,
+    #261045 132.38%,
+    #190634 150.9%
+  );
+
+  box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  border-top: 3px solid #763cac;
+}
+
+.btn3{
+background-color: #2C1250;
+border:2px solid #693B93;
+width: 119px;
+height: 33px;
+font-size: 12px;
+line-height: 15px;
+}
+
+/* @media (max-width: 768px) {
+  .blur1 {
+    top: 20rem; 
+    right: 3rem; 
   }
-  
-  .image {
-    width: 100%;
-    height: auto;
-    display: block;
+} */
+
+@media (max-width: 1343px) {
+  .blur1 {
+    width: 500px;
+    height: 570px;
+    top: 30rem;
+    right: 1rem;
   }
-  
-  .blur-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(128, 0, 128, 0.5); /* semi-transparent purple overlay */
-    backdrop-filter: blur(8px); /* Adds a purple blur effect */
-    -webkit-backdrop-filter: blur(8px); /* For older versions of Safari */
-  }
+}
 
 .btn1 {
   border-radius: 30px;

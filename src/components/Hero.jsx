@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <img src={img} alt="/" className='xl:w-[318.37px] xl:h-[374px] md:w-[218.37px] md:h-[274px]  absolute top-[-1px] left-[18px] max-md:h-[15%] max-md:w-[23%] max-md:top-[8rem] md:top-[-2rem] md:left-[7rem]' />
+        <img src={img} alt="/" className=' z-[-1] xl:w-[318.37px] xl:h-[374px] absolute top-[-12rem] left-0 max-sm:hidden max-xl:w-[218.37px] max-xl:h-[274px] max-xl:left-[10rem]' />
     </div>
   )
 }
