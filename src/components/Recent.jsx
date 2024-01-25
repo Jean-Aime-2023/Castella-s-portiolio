@@ -28,6 +28,21 @@ const RecentWork = [
     image: image3,
     title: 'Mockups',
   },
+  {
+    id: 4,
+    image: image3,
+    title: 'Mockups',
+  },
+  {
+    id: 5,
+    image: image3,
+    title: 'Mockups',
+  },
+  {
+    id: 6,
+    image: image3,
+    title: 'Mockups',
+  },
 ];
 
 // const RecentWorkCard = ({ image, title }) => (

@@ -44,26 +44,26 @@ const Examples = () => {
                 <path
                   d="M15.5 2.58337V7.75004"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
                   fill="white"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </mask>
               <g mask="url(#mask0_1106_1434)">
@@ -90,26 +90,26 @@ const Examples = () => {
                 <path
                   d="M15.5 2.58337V7.75004"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
                   fill="white"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </mask>
               <g mask="url(#mask0_1106_1434)">
@@ -169,26 +169,26 @@ const Examples = () => {
                 <path
                   d="M15.5 2.58337V7.75004"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
                   fill="white"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </mask>
               <g mask="url(#mask0_1106_1434)">
@@ -215,26 +215,26 @@ const Examples = () => {
                 <path
                   d="M15.5 2.58337V7.75004"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M14.2083 14.2084L27.1249 16.7917L23.2499 19.375L27.1249 23.25L23.2499 27.125L19.3749 23.25L16.7916 27.125L14.2083 14.2084Z"
                   fill="white"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M24.6333 6.3667L20.9798 10.0202M6.36654 24.6334L10.02 20.98M2.58325 15.5001H7.74992M6.36654 6.3667L10.02 10.0202"
                   stroke="white"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </mask>
               <g mask="url(#mask0_1106_1434)">
