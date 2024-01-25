@@ -247,7 +247,7 @@ const Examples = () => {
         <div className="absolute blur2 left-[10rem] bottom-[50rem]"></div>
 
         <div className="order-1 max-md:order-2">
-          <img src={image2} alt="" className="w-[90%]" />
+          <img src={image} alt="" className="w-[90%]" />
         </div>
       </div>
     </div>

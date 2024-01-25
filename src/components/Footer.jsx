@@ -9,12 +9,20 @@ import twitter from '../assets/icons/Twitter.png'
 import linkedIn from '../assets/icons/Linkedin.png'
 import fb from '../assets/icons/Facebook.png'
 import youtube from '../assets/icons/YouTube.png'
+import {motion} from 'framer-motion'
 
 const Footer = () => {
   return (
     <div className='relative flex flex-col gap-[4rem] text-white mt-[20rem] items-center px-[30rem] pt-[10rem] pb-[2rem] max-lg:px-[10rem] max-md:px-[3rem] max-lg:text-xs poppins w-screen bg-[#693B93]'>
         
-        <div className='absolute top-[-12rem] left-0'><img src={planet} alt="" /></div>
+        <motion.div animate={{ y: [-40, 0, -40] }}
+  transition={{
+    values: [0, 1, 0],  // Updated to use values instead of times
+    duration:2,
+    repeat: Infinity,
+    type: "keyframes",
+    ease: "easeInOut"
+  }} className='absolute top-[-12rem] left-0'><img src={planet} alt="" /></motion.div>
         <div className='flex flex-row max-md:flex-col gap-[4rem]'>
                 <section className='flex flex-row gap-[1rem] items-center'>
                     <CiHome size={15} />

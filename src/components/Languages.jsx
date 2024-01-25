@@ -1,6 +1,7 @@
 import React from 'react'
 import group1 from '../assets/svg/Group 3439.svg'
 import group2 from '../assets/svg/Group 3440.svg'
+import {motion} from 'framer-motion'
 
 const Languages = () => {
   return (
@@ -11,12 +12,26 @@ const Languages = () => {
         </div>
 
         <div className='flex flex-col justify-center items-center'>
-            <div>
+            <motion.div animate={{ y: [-40, 0, -40] }}
+  transition={{
+    values: [0, 1, 0],  // Updated to use values instead of times
+    duration: 2,
+    repeat: Infinity,
+    type: "keyframes",
+    ease: "easeInOut"
+  }}>
             <img src={group1} alt="Group 1" />
-            </div>
-            <div className='mt-[-7rem]'>
+            </motion.div>
+            <motion.div animate={{ y: [-40, 0, -40] }}
+  transition={{
+    values: [0, 1, 0],  // Updated to use values instead of times
+    duration: 2,
+    repeat: Infinity,
+    type: "keyframes",
+    ease: "easeInOut"
+  }} className='mt-[-7rem]'>
             <img src={group2} alt="Group 1" />
-            </div>
+            </motion.div>
         </div>
     </div>
   )

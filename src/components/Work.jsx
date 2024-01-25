@@ -1,16 +1,26 @@
 import React from 'react';
 import Experience from '../data/Experience';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  offset: 120,
+  delay: 0, 
+  duration: 800, 
+  easing: 'ease',
+});
+
 
 const Work = () => {
   return (
     <div className="mt-[20rem] text-white px-[20rem] max-xl:px-[10rem] max-md:px-[2rem] flex flex-col gap-12 max-md:mt-[30rem] max-sm:mt-[45rem]">
       <div>
-        <h2 className='prehvihear max-md:text-3xl sm:text-4xl'>Work Experience</h2>
+        <h2 data-aos="fade-top" data-aos-offset="200" data-aos-delay="50" className='prehvihear max-md:text-3xl sm:text-4xl'>Work Experience</h2>
       </div>
 
       <div className=" poppins grid grid-cols-2 max-lg:grid-cols-1 gap-10 place-content-center">
         {Experience.map((item) => (
           <div
+          data-aos="fade-right" data-aos-offset="200" data-aos-delay="5"
             key={item.id}
             className="flex flex-row gap-5 items-center bg-[#693B93] max-md:w-full workbox hover:scale-105 cursor-pointer hover:ease-in-out hover:duration-200 px-[3rem] py-[2rem]"
           >
