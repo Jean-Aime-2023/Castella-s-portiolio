@@ -127,7 +127,7 @@ const Examples = () => {
           </div>
         </div>
 
-        <div className="absolute blur2 right-[28rem] top-[190em]"></div>
+        <div className="absolute blur2 right-[28rem] bottom-[90em]"></div>
 
         <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="50">
           <img
