@@ -6,8 +6,7 @@ import Work from './components/Work';
 import Language from './components/Languages';
 import Examples from './components/Examples';
 import Footer from './components/Footer';
-import RecentWork from './components/RecentWork';
-import Slick from './components/Slick';
+import SwipperComponent from './components/Swiper';
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
       <WhoIamI />
       <Work />
       <Language />
-      {/* <RecentWork/> */}
-      <Slick/>
+      <SwipperComponent/>
       <Examples />
       <Footer />
     </div>

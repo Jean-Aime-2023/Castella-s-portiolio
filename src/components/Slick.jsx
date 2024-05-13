@@ -30,10 +30,10 @@ export default function Slick() {
         <img src={bg} alt="/" className="w-[80%] px-[10rem]" />
       </div>
 
-      <div className="block justify-center px-[10rem] h-full items-center">
+      <div className="block justify-center px-[10rem] py-[20rem] bg-green-500 h-full items-center">
         <Slider
           {...settings}
-          className="py-[20rem] flex justify-center items-center "
+          className="flex items-center bg-red-600 py-4 place-content-center"
         >
           <div className="relative mx-[2rem]">
             <div className="relative overflow-hidden project">
