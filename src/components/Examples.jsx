@@ -12,7 +12,7 @@ AOS.init({
 
 const Examples = () => {
   return (
-    <div className="flex flex-col 2xl:px-[20rem] py-[10rem] gap-[20rem] max-md:py-[3rem] max-md:gap-[10rem] items-center max-2xl:px-[4rem] max-md: text-white poppins">
+    <div id='examples' className="flex flex-col 2xl:px-[20rem] py-[10rem] gap-[20rem] max-md:py-[3rem] max-md:gap-[10rem] items-center max-2xl:px-[4rem] max-md: text-white poppins">
       <div className="flex flex-row max-lg:flex-col items-center">
         <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" className="flex flex-col gap-8">
           <section>

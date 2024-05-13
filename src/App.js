@@ -6,20 +6,35 @@ import Work from './components/Work';
 import Language from './components/Languages';
 import Examples from './components/Examples';
 import Footer from './components/Footer';
-import SwipperComponent from './components/Swiper';
+import Sidebar from './components/Sidebar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HorizontalScroller from './components/HorizontalScroller';
 
-function App() {
+const HomePage = () => {
   return (
-    <div>
+    <div className="relative">
       <Navbar />
+      <Sidebar />
       <Hero />
       <WhoIamI />
       <Work />
       <Language />
-      <SwipperComponent/>
+      <HorizontalScroller/>
       <Examples />
       <Footer />
     </div>
+  );
+};
+
+function App() {
+  return (
+      <div className="app">
+        <Router>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+          </Routes>
+        </Router>
+      </div>
   );
 }
 

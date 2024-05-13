@@ -12,7 +12,7 @@ AOS.init({
 
 const Work = () => {
   return (
-    <div className="mt-[20rem] text-white px-[20rem] max-xl:px-[10rem] max-md:px-[2rem] flex flex-col gap-12 max-md:mt-[30rem] max-sm:mt-[45rem]">
+    <div id='workEx' className="mt-[20rem] text-white px-[20rem] max-xl:px-[10rem] max-md:px-[2rem] flex flex-col gap-12 max-md:mt-[30rem] max-sm:mt-[45rem]">
       <div>
         <h2 data-aos="fade-top" data-aos-offset="200" data-aos-delay="50" className='prehvihear max-md:text-3xl sm:text-4xl'>Work Experience</h2>
       </div>

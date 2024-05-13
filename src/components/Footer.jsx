@@ -13,7 +13,7 @@ import {motion} from 'framer-motion'
 
 const Footer = () => {
   return (
-    <div className='relative flex flex-col gap-[4rem] text-white mt-[20rem] items-center px-[30rem] pt-[10rem] pb-[2rem] max-lg:px-[10rem] max-md:px-[3rem] max-lg:text-xs poppins w-screen bg-[#693B93]'>
+    <div id='footer' className='relative flex flex-col gap-[4rem] text-white mt-[20rem] items-center px-[30rem] pt-[10rem] pb-[2rem] max-lg:px-[10rem] max-md:px-[3rem] max-lg:text-xs poppins w-screen bg-[#693B93]'>
         
         <motion.div animate={{ y: [-40, 0, -40] }}
   transition={{
