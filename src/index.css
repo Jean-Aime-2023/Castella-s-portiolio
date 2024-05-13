@@ -9,10 +9,11 @@ body {
   background-color: #11071f;
   overflow-x: hidden;
   position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 
 .poppins {
-  font-family: 'Poppins', sans-serif;
+  
 }
 
 .prehvihear {
@@ -125,4 +126,52 @@ line-height: 15px;
   transition: all;
   animation-duration: 1s;
   animation-delay: 0.1s;
+}
+
+.item{
+  min-height: 400px;
+  min-width: 510px;
+  padding: 0 30px;
+  margin: 0 30px;
+}
+
+.item img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+.inner-carousel{
+  display: flex;
+}
+
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+  margin: 0 6rem;
+  border-radius: 2rem;
+}
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2e1552; /* Track color */
+  border-radius: 10px; /* Border radius for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7127BA; /* Thumb color */
+  border-radius: 10px; /* Border radius for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Thumb color on hover */
+}
+
+.cursor-pointer{
+
 }
