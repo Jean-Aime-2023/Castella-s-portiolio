@@ -10,6 +10,7 @@ import linkedIn from '../assets/icons/Linkedin.png'
 import fb from '../assets/icons/Facebook.png'
 import youtube from '../assets/icons/YouTube.png'
 import {motion} from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -43,11 +44,11 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-row gap-[1rem]'>
-            <div><img src={Ig} alt="/" className='w-[40px] h-[40px]' /></div>
-            <div><img src={twitter} alt="/" className='w-[40px] h-[40px]' /></div>
-            <div><img src={linkedIn} alt="/" className='w-[40px] h-[40px]' /></div>
-            <div><img src={fb} alt="/" className='w-[40px] h-[40px]' /></div>
-            <div><img src={youtube} alt="/" className='w-[40px] h-[40px]' /></div>
+            <Link to={'https://instagram.com/'} target="_blank" rel="noopener noreferrer"><img src={Ig} alt="/" className='w-[40px] h-[40px]' /></Link>
+            <Link to={'hhttps://twitter.com/'} target="_blank" rel="noopener noreferrer"><img src={twitter} alt="/" className='w-[40px] h-[40px]' /></Link>
+            <Link to={'https://linnkedin.com/'} target="_blank" rel="noopener noreferrer"><img src={linkedIn} alt="/" className='w-[40px] h-[40px]' /></Link>
+            <Link to={'https://facebook.com/'} target="_blank" rel="noopener noreferrer"><img src={fb} alt="/" className='w-[40px] h-[40px]' /></Link>
+            <Link to={'https://youtube.com/'} target="_blank" rel="noopener noreferrer"><img src={youtube} alt="/" className='w-[40px] h-[40px]' /></Link>
         </div>
 
         <hr className='w-[90rem] border-1 px-[10rem] bg-slate-400' />
